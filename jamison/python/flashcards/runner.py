@@ -25,6 +25,7 @@ def start():
   print(f"****** Game over! ******")
   round.total_correct_percentage()
   print(f"You had {round.number_correct} correct guesses out of {deck_size} for a total score of {round.total_correct_percentage()}.")
-
+  for card in round.answered_cards:
+    print(f"{card.category()} - {round.correct_by_category(card.category())} correct")
 
 start()
