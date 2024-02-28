@@ -17,3 +17,9 @@ class Round:
     self.deck.cards.remove(self.current_card())
     self.turns.append(new_turn)
     return new_turn
+
+  def total_correct_percentage(self):
+    if self.number_correct == 0:
+      return "0%"
+    percentage = self.number_correct / len(self.turns)
+    return f"{round(percentage, 2)}%"

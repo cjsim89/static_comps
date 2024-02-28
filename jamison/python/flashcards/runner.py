@@ -13,14 +13,18 @@ round = Round(deck)
 def start():
   print(f"Welcome! You're playing with {deck.count()} cards.")
   print("-------------------------------------------------")
-  outcome = False
-  while outcome == False:
-    index = 0
-    print(f"This is card number {index + 1} out of {deck.count()}")
+  index = 0
+  deck_size = deck.count()
+  while index < deck_size:
+    print(f"This is card number {index + 1} out of {deck_size}")
     print(f"Question: {round.current_card().question}")
     guess = input()
     turn = round.take_turn(guess)
     print(turn.feedback())
-    outcome = True
+    index += 1
+  print(f"****** Game over! ******")
+  round.total_correct_percentage()
+  print(f"You had {round.number_correct} correct guesses out of {deck_size} for a total score of {round.total_correct_percentage()}.")
+
 
 start()
