@@ -1,0 +1,121 @@
+#topHeader{ 
+   background-color: #000;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-family: "Montserrat";
+   
+
+}
+
+#topHeader ul#header_nav {
+   list-style-type: none;
+   padding-top: 10px;
+
+}
+
+#topHeader ul#header_nav li {
+   display: inline-block;
+   text-align: center;
+   font-family: "Montserrat";
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #fff;
+   padding-left: 10px;
+   letter-spacing: 1.5px;
+}
+
+#logo_container img {
+   width: 100%;
+}
+
+#button_nav > .pink_button {
+   background-color: #e40089;
+   border-radius: 50px;
+   color: #fff;
+   float: right;
+   padding: 5px 15px;
+   font-size: 14px;
+   font-weight: bold;
+   letter-spacing: 1px;
+
+}
+
+#subHeader {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: #e40089;
+}
+
+#subheader_nav {
+   list-style-type: none;
+}
+
+#subheader_nav li {
+   display: inline-block;
+   text-align: center;
+   font-family: "Montserrat";
+   font-weight: normal;
+   text-transform: uppercase;
+   color: #fff;
+   padding-left: 10px;
+}
+
+#subheader_nav li.selected {
+   font-weight: bold;
+}
+
+#breadcrumbs {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 14px;
+   color: darkgray;
+   font-family: "Montserrat";
+   text-transform: uppercase;
+   font-weight: 600;
+}
+
+#breadcrumbs .crumb {
+   color: #e40089;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 22px;
+}
+
+img.rounded-hero {
+   width: 100%;
+   border-radius: 25px;
+}
+
+h1, small {
+   font-family: "Montserrat";
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+h1 {
+   font-size: 32px;
+}
+
+small {
+   font-size: 17px;
+}
+
+img.mw-icon {
+   display:inline-block;
+   vertical-align: middle;
+}
+
+h1.title {
+   padding-top: 10px;
+   padding-left: 20px;
+   vertical-align: top;
+   display: inline-block;
+}
+
+p.copy {
+   font-family: "Montserrat";
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   margin-top: 20px;
+}
